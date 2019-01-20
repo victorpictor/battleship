@@ -1,0 +1,12 @@
+{application, battleship,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { battleship_app, []}},
+  {env, []}
+ ]}.
